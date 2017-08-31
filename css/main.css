@@ -1,0 +1,78 @@
+body {
+	background-color: #151616; 
+}
+.contain {
+	background-color: #FA564D; 
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.quote {
+	font-family: Arial;
+	font-size: 18px; 
+	padding: 5px;
+}
+
+.contain2 {
+	background-color: #202023;
+	padding: 10px 30px 10px 30px;
+	border-radius: 1px;
+}
+
+.button {
+	display: inline-block;
+	background-color: #202023; 
+	font-family: arial;
+	color: #d2dddd;
+	border: 1.3px #FA564D solid;
+	padding: 2px 7.5px 2px 7.5px;
+	margin: 0px 0px 0px 30px;  
+	font-size: 20px; 
+	border-radius: 100px; 
+	cursor: pointer;
+}
+
+.inputbox {
+	border: 0;
+	border-radius: 100px;
+	padding: 6px 60px 6px 20px;
+	font-family: arial;
+	font-size: 18px;
+	display: inline-block;
+	background-color: #2f3133;
+	color: #f2f7ff;
+	-webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;    
+}
+
+.danktain {
+	display: inline-block;
+	background-color: #FA564D; 
+	border-radius: 5px;
+}
+
+.filler {
+	background-color: #202023;
+	margin-top: 12px;
+	border-radius: 1px;
+	padding: 5px 12px 5px 12px;
+	color: #d2dddd;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.space {
+	background-color: #363738;
+	border-radius: 3px;
+	padding: 4px 12px 4px 12px; 
+	margin: 3px 0px 3px 0px; 
+	cursor: pointer;
+}
+
+.inputbox:focus{
+	box-shadow: 0px 0px 1pt 1pt #e5806e;
+    background-color: black; 
+	outline: none;
+}
